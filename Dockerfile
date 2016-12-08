@@ -3,7 +3,7 @@
 # Customized from https://github.com/jupyter/docker-demo-images/tree/master/common
 FROM debian:jessie
 
-MAINTAINER Andrew Osheroff <andrewosh@gmail.com>
+MAINTAINER Drew Hart <drew.hart@berkeley.edu>
 
 ENV DEBIAN_FRONTEND noninteractive
 
