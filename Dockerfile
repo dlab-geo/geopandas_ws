@@ -7,10 +7,10 @@ MAINTAINER Andrew Osheroff <andrewosh@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update -y &&\
-    apt-get install -y curl git vim wget build-essential python-dev ca-certificates bzip2 libsm6\
+RUN sudo apt-get update -y &&\
+    sudo apt-get install -y curl git vim wget build-essential python-dev ca-certificates bzip2 libsm6\
       nodejs-legacy npm python-virtualenv python-pip gcc gfortran libglib2.0-0 python-qt4 &&\
-    apt-get clean &&\
+    sudo apt-get clean &&\
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*tmp
 
 # We run our docker images with a non-root user as a security precaution.
