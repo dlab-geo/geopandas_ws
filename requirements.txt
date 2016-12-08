@@ -4,7 +4,6 @@ pandas
 scipy
 geopandas
 geopy
-https://github.com/matplotlib/basemap/archive/v1.0.7rel.tar.gz
 Fiona
 Shapely
 osmnx
