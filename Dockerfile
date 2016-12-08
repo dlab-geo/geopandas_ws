@@ -32,7 +32,7 @@ ENV USER main
 WORKDIR $HOME
 
 # Add helper scripts
-ADD start-notebook.sh /home/main/
+#ADD start-notebook.sh /home/main/
 
 #USER main
 
