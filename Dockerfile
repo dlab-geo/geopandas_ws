@@ -46,6 +46,6 @@ RUN /home/main/anaconda3/bin/pip install --upgrade pip
 
 
 #DEH ADD: Install Python pacakges
-RUN pip install -r requirements.txt
+RUN pip install geopandas geopy Fiona Shapely osmnx GDAL
 
 ENV SHELL /bin/bash
