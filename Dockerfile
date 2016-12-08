@@ -15,7 +15,7 @@ USER root
 
 RUN apt-get update -y &&\
     apt-get install -y curl git vim wget build-essential python-dev ca-certificates bzip2 libsm6\
-      libgdal-dev gdal-bin libgeos-3.5.0 libgeos-c1v5 libgeos-dev\
+      libgdal-dev gdal-bin libgeos-c1v5 libgeos-dev\
       nodejs-legacy npm python-virtualenv python-pip gcc gfortran libglib2.0-0 python-qt4 &&\
     apt-get clean &&\
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*tmp
