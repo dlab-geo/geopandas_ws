@@ -1,14 +1,11 @@
 matplotlib
 numpy
 pandas
-collections
-re
 scipy
 geopandas
 geopy
 basemap
-fiona
-shapely
+Fiona
+Shapely
 osmnx
-gdal
-osr
+GDAL
