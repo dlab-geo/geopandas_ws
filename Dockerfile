@@ -7,6 +7,12 @@ MAINTAINER Drew Hart <drew.hart@berkeley.edu>
 
 ENV DEBIAN_FRONTEND noninteractive
 
+#From https://github.com/ctb/2016-mybinder-irkernel/blob/master/Dockerfile, 
+#and from the errors I've been getting, it looks like perhaps I have to insert the next line
+#to get the apt-get commands to run
+
+USER root
+
 RUN apt-get update -y &&\
     apt-get install -y curl git vim wget build-essential python-dev ca-certificates bzip2 libsm6\
       nodejs-legacy npm python-virtualenv python-pip gcc gfortran libglib2.0-0 python-qt4 &&\
