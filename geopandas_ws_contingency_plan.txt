@@ -4,7 +4,7 @@
 
 3.) You will be redirected to a Berkeley site, where you can complete login
 
-4.) Selection one of the Python3 notebook options
+4.) Click "Open in Jupyter", toward the top-right of the screen.
 
 5.) Select "Upload", navigate to your repo, select the .ipynb file, then "Upload" it.
 
