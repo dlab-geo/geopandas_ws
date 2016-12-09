@@ -1,6 +1,0 @@
-geopandas
-geopy
-Fiona
-Shapely
-osmnx
-GDAL

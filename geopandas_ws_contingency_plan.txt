@@ -1,0 +1,17 @@
+1.) Navigate browser to  notebooks.azure.com
+
+2.) Use your Berkeley address to log in
+
+3.) You will be redirected to a Berkeley site, where you can complete login
+
+4.) Selection one of the Python3 notebook options
+
+5.) Select "Upload", navigate to your repo, select the .ipynb file, then "Upload" it.
+
+6.) Launch that notebook.
+
+7.) Run the first section of code, which should wget and unzip the repo (again, to get at the data), and
+successfully install geopy and geopandas.
+
+8.) We should then be able to run through the rest of our workshop, save for a few sections! :)
+
