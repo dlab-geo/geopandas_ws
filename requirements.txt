@@ -1,0 +1,12 @@
+ipython
+matplotlib
+numpy
+pandas
+scipy
+geopandas
+geopy
+Fiona
+Shapely
+osmnx
+GDAL
+--allow-external basemap --allow-unverified basemap basemap
