@@ -1,0 +1,19 @@
+name: geopandas_ws_env
+
+dependencies:
+- python=3.4
+- numpy
+- matplotlib
+- pandas
+- IPython
+- collections
+- re
+- scipy
+- geopy
+- mpl.toolkits.basemap
+- geopandas
+- fiona
+- shapely
+- osmnx
+- gdal
+- osr
